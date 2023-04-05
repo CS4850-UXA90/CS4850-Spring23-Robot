@@ -30,10 +30,10 @@ This project was designed by members of the SP-1 Team for Spring 2023 CS4850-02 
         Vincent Giordano
       </h3>
       <p class="text-muted">
-        derek@comella.net
+        vkgiordano3@gmail.com
       </p>
       <p class="text-muted">
-        Graduating December 2022. Looking for a fulltime software developer position, willing to relocate.
+        Graduating May 2023. Commissioning as an Officer in the United States Air Force.
       </p>
     </div>
   </div>
