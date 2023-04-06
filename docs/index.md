@@ -86,10 +86,10 @@ Your browser does not support the video tag.
         Kazhan Sofy
       </h3>
       <p class="text-muted">
-	stkt3219@gmail.com
+	kazhansofy11@gmail.com
       </p>
       <p class="text-muted">
-	Graduating December 2022. Looking for a fulltime Front End Developer position.
+	Graduating May 2023. Looking for a fulltime Software Developer position.
       </p>
     </div>
   </div>
@@ -104,37 +104,11 @@ Your browser does not support the video tag.
         George Larumbe
       </h3>
       <p class="text-muted">
-        jackyoung@jacaro.dev
+        jorge.larumbem@gmail.com
       </p>
       <p class="text-muted">
-        Graduating December 2022. Looking for a fulltime software developer position.
+        Graduating July 2023. Looking for a fulltime software developer position.
       </p>
     </div>
   </div>
 </div>
-
-## Files
-### Base Movement
-Connects the UXA-90 robot and Raspberry Pi to the Meta Quest 2. VR controller inputs are sent to the Raspberry Pi and API calls are made to control the robot's basic motion.
-
-Movement: 
-+ Walk left, right, or forward
-+ Rotate left or right
-+ Crouch (work in progress)
-+ Dance (work in progress)
-
-### Vision
-*** Soon to be added ***
-
-### Head Tracking
-*** Soon to be added ***
-
-### Hand Tracking
-*** Soon to be added ***
-
-
-## Resoruces:
-Past Team's Website: https://4850-red.github.io/red-site/
-
-Past Team's Github: https://github.com/4850-red
-
