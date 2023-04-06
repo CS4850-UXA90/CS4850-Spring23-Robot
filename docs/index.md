@@ -23,7 +23,7 @@ Link to <a href="https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main
 Video presentation:
 
 <video width="320" height="240" controls>
-  <source src="{{ site.baseurl }}/documents/it_found_me.mov" type="video/mp4">
+  <source src="{{ site.baseurl }}/documents/UXA-90 Demo.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -33,7 +33,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/Vincent.png" alt="Vincent" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -69,7 +69,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/Kazhan.jpg" alt="Kazhan" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -87,7 +87,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/George.jpg" alt="George" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
