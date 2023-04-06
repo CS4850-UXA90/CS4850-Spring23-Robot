@@ -33,7 +33,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -51,7 +51,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -69,7 +69,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -87,7 +87,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow">
+      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
