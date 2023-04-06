@@ -18,7 +18,7 @@ This project was designed by members of the SP-1 Team for Spring 2023 CS4850-02 
 
 Link to <a href="{{ site.baseurl }}/documents/final-report.pdf" target="_blank">Final Report.</a>
 
-Link to <a href="https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main" target="_blank">GitHub Repository.</a>]
+Link to <a href="https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main" target="_blank">GitHub Repository.</a>
 
 Link to <a href="{{ site.baseurl }}/documents/it_found_me.mov" target="_blank">video presentation</a>
 
