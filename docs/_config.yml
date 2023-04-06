@@ -45,6 +45,19 @@ callouts:
   important:
     title: Important
     color: yellow
+    
+# URL
+url: "https://CS4850-UXA90.github.io"
+
+# Navigation
+nav:
+- name: "GitHub"
+  url: "https://github.com/CS4850-UXA90"
+  
+# Sass
+sass:
+sass_dir: _sass
+style: :compressed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
