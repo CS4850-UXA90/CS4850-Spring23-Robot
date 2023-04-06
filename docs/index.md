@@ -29,7 +29,7 @@ Your browser does not support the video tag.
 # Our Team
 {: .mb-5 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">
+<link rel="stylesheet" href="{{ site.baseurl }}/CSS/custom.css">
 
 <div class="profile-card">
 	<img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="profile-card_image" style ="width:100%">
