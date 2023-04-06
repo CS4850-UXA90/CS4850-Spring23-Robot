@@ -22,7 +22,7 @@ Link to <a href="https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main
 
 Video presentation:
 
-<video width="320" height="240" controls>
+<video width="500" height="500" controls>
   <source src="{{ site.baseurl }}/documents/UXA-90 Demo.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
