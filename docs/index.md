@@ -41,7 +41,7 @@ This project was designed by members of the SP-1 Team for Spring 2023 CS4850-02 
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="/CS4850-Spring23-Robot/docs/images/Ian.jpg" alt="Ian" class="mb-4 shadow">
+      <img src="/images/Ian.jpg" alt="Ian" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
