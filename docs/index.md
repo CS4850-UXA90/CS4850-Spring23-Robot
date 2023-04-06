@@ -32,7 +32,7 @@ Your browser does not support the video tag.
 <link rel="stylesheet" href="{{ site.baseurl }}/CSS/custom.css">
 
 <div class="profile-card">
-	<img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="profile-card_image" style ="width:100%">
+	<img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian">
 	<h1>Ian Bryenton</h1>
 	<p class="title">Coder</p>
 	<a href="https://github.com/I-Bryenton"><i class="fa fa-github"></i></a>
