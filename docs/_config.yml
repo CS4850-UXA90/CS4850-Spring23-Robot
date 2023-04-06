@@ -45,9 +45,6 @@ callouts:
   important:
     title: Important
     color: yellow
-    
-# URL
-url: "https://CS4850-UXA90.github.io"
 
 # Navigation
 nav:
