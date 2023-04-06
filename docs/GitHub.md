@@ -1,5 +1,6 @@
 ---
 layout: default
 title: GitHub
-permalink: https://github.com/CS4850-UXA90/CS4850-Spring23-Robot
 ---
+
+<a href="{{ site.baseurl }}/documents/final-report.pdf" target="_blank"></a>
