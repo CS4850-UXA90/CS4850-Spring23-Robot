@@ -3,13 +3,16 @@ layout: default
 title: Home
 nav_order: 1
 ---
+<nav class="header-nav">
+	<a href="{{ nav.url }}" target="_blank">GitHub</a>
+</nav>
 # Robot Control with Oculus VR
 {: .fs-9}
 This is the website for documentation and development of the Spring 2023 CS-4850 Senior Project group SP-1 for the UXA-90 robot with Oculus VR
 
 {: .fs-6}
 # Overview
-<a href="{{ nav.url }}" target="_blank">{{ nav.name }}</a>
+
 ## Goal
 This project was designed by members of the SP-1 Team for Spring 2023 CS4850-02 Senior Project class. We utilized Unity to issue API commands to a Raspberry Pi while on a local network to the UXA-90 robot. The goal of this application is to enable a user to see and interact with the world through the robot. Through this project we hope that successive teams and other developers can use what we've done for their next project.
 
