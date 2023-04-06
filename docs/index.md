@@ -20,10 +20,10 @@ Link to <a href="{{ site.baseurl }}/documents/final-report.pdf" target="_blank">
 
 Link to <a href="https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main" target="_blank">GitHub Repository.</a>
 
-Link to <a href="{{ site.baseurl }}/documents/it_found_me.mov" target="_blank">video presentation</a>
+Video presentation:
 
 <video width="320" height="240" controls>
-  <source src="{{ site.baseurl }}/documents/top29quintillioncheese.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/documents/it_found_me.mov" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
