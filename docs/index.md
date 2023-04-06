@@ -20,7 +20,7 @@ Link to <a href="{{ site.baseurl }}/documents/final-report.pdf" target="_blank">
 
 Link to [GitHub Repository](https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main)
 
-Link to <a href="{{ site.baseurl }}/documents/presentation.mp4" target="_blank">video presentation</a>
+Link to <a href="{{ site.baseurl }}/documents/it_found_me.mov" target="_blank">video presentation</a>
 
 # Our Team
 {: .mb-5 }
