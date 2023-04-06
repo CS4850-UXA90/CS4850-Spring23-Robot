@@ -16,6 +16,16 @@ George L. | Kazhan S. | Vincent G. | Ian B.
 ## Goal
 This project was designed by members of the SP-1 Team for Spring 2023 CS4850-02 Senior Project class. We utilized Unity to issue API commands to a Raspberry Pi while on a local network to the UXA-90 robot. The goal of this application is to enable a user to see and interact with the world through the robot. Through this project we hope that successive teams and other developers can use what we've done for their next project.
 
+Link to <a href="{{ site.baseurl }}/documents/final-report.pdf" target="_blank">Final Report.</a>
+
+Link to <a href="https://github.com/CS4850-UXA90/CS4850-Spring23-Robot/tree/main" target="_blank">GitHub Repository.</a>
+
+Video presentation:
+
+<video width="320" height="240" controls>
+  <source src="{{ site.baseurl }}/documents/it_found_me.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 # Our Team
 {: .mb-5 }
@@ -115,5 +125,6 @@ Movement:
 
 ## Resoruces:
 Past Team's Website: https://4850-red.github.io/red-site/
+
 Past Team's Github: https://github.com/4850-red
 
