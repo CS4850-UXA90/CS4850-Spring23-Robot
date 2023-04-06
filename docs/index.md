@@ -9,7 +9,7 @@ This is the website for documentation and development of the Spring 2023 CS-4850
 
 {: .fs-6}
 # Overview
-
+<a href="{{ nav.url }}" target="_blank">{{ nav.name }}</a>
 ## Goal
 This project was designed by members of the SP-1 Team for Spring 2023 CS4850-02 Senior Project class. We utilized Unity to issue API commands to a Raspberry Pi while on a local network to the UXA-90 robot. The goal of this application is to enable a user to see and interact with the world through the robot. Through this project we hope that successive teams and other developers can use what we've done for their next project.
 
@@ -30,6 +30,7 @@ Your browser does not support the video tag.
 {: .mb-5 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/CSS/custom.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">
 
 <div class="profile-card">
 	<img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian">
