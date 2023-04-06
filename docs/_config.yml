@@ -26,10 +26,6 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cs4850-uxa90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cs4850-uxa90
 
-header:
-  - title: GitHub
-    url: "https://github.com/CS4850-UXA90/CS4850-Spring23-Robot"
-
 back_to_top: true
 back_to_top_text: "Back to top"
 
