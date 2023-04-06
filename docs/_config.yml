@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: RESTful Robots
-email: cs48508xa90@gmail.com
+title: Virtual Reality Robots
+email: cs4850uxa90@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Documentation of the REST API created for UXA90-Light robots.
+  Documentation of the VR Application and from the previous group(s) created for UXA90 Robots.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cs4850-uxa90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cs4850-uxa90
