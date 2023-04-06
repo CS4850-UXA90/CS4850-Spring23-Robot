@@ -69,7 +69,7 @@ Your browser does not support the video tag.
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
     <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow" style = "border-radius: 50%;">
+      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow" style = "border-radius: 40%;">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
