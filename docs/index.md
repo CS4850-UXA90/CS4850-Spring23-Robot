@@ -3,9 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 ---
-<nav class="header-nav">
-	<a href="{{ nav.url }}" target="_blank">GitHub</a>
-</nav>
+
 # Robot Control with Oculus VR
 {: .fs-9}
 This is the website for documentation and development of the Spring 2023 CS-4850 Senior Project group SP-1 for the UXA-90 robot with Oculus VR
@@ -35,13 +33,14 @@ Your browser does not support the video tag.
 <link rel="stylesheet" href="{{ site.baseurl }}/CSS/custom.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">
 
+<!--
 <div class="profile-card">
 	<img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian">
 	<h1>Ian Bryenton</h1>
 	<p class="title">Coder</p>
 	<a href="https://github.com/I-Bryenton"><i class="fa fa-github"></i></a>
 </div>
-	
+-->	
 	
 
 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
