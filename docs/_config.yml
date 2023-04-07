@@ -30,7 +30,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Build settings
-theme: modernist # minima
+theme: cayman # minima
 color_scheme: robots
 
 callouts:
