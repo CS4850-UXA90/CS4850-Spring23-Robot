@@ -30,10 +30,8 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Build settings
-theme: minima
+theme: hacker # minima
 color_scheme: robots
-plugins:
-  - jekyll-feed
 
 callouts:
   warning:
