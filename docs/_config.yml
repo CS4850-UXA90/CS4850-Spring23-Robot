@@ -30,7 +30,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Build settings
-theme: hacker # minima
+theme: modernist # minima
 color_scheme: robots
 
 callouts:
