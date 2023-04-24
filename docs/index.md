@@ -31,14 +31,15 @@ Your browser does not support the video tag.
 {: .mb-5 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/CSS/custom.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">	
+<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">
+<link rel="stylesheet" href="{{ site.baseurl }}/_sass/color_schemes/robots.scss">
 	
 <div id="banner" display="block">
 
-<!--<div class="inline-block">  "col-lg-4 col-md-6 col-sm-12 mb-4"> 
+<div class="inline-block">  <!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
   <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100"> -->
-    <div class="profile-card_image" style="display: block">
-      <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow" style = "border-radius: 50%;">
+    <div class="profile-card_image">
+      <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -53,7 +54,7 @@ Your browser does not support the video tag.
     </div>
 <!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4"> -->
     <div class="profile-card_image" style="display: block">
-      <img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="mb-4 shadow" style = "border-radius: 50%;">
+      <img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -63,12 +64,12 @@ Your browser does not support the video tag.
         ianbryenton20561@gmail.com
       </p>
       <p class="text-muted">
-        Graduating May 2023. Currently employed.
+        Graduating May 2023. Looking for a fulltime postion in Software Development.
       </p>
     </div>
 <!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4"> -->
     <div class="profile-card_image" style="display: block">
-      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow" style = "border-radius: 50%;">
+      <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
@@ -83,7 +84,7 @@ Your browser does not support the video tag.
     </div>
 <!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4"> -->
     <div class="profile-card_image" style="display: block">
-      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow" style = "border-radius: 50%;">
+      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow">
     </div>
     <div class="profile-card_details">
       <h3 class="mb-0">
