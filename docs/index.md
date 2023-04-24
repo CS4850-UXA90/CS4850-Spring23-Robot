@@ -31,21 +31,13 @@ Your browser does not support the video tag.
 {: .mb-5 }
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/CSS/custom.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">
-
-<!--
-<div class="profile-card">
-	<img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian">
-	<h1>Ian Bryenton</h1>
-	<p class="title">Coder</p>
-	<a href="https://github.com/I-Bryenton"><i class="fa fa-github"></i></a>
-</div>
--->	
+<link rel="stylesheet" href="{{ site.baseurl }}/_sass/custom/custom.scss">	
 	
+<div id="banner" display="block">
 
-<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
-    <div class="profile-card_image">
+<!--<div class="inline-block">  "col-lg-4 col-md-6 col-sm-12 mb-4"> 
+  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100"> -->
+    <div class="profile-card_image" style="display: block">
       <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
@@ -59,11 +51,8 @@ Your browser does not support the video tag.
         Graduating May 2023. Commissioning as an Officer in the United States Air Force.
       </p>
     </div>
-  </div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
-    <div class="profile-card_image">
+<!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4"> -->
+    <div class="profile-card_image" style="display: block">
       <img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
@@ -77,11 +66,8 @@ Your browser does not support the video tag.
         Graduating May 2023. Currently employed.
       </p>
     </div>
-  </div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
-    <div class="profile-card_image">
+<!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4"> -->
+    <div class="profile-card_image" style="display: block">
       <img src="{{ site.baseurl }}/images/KazhanHeadshot.jpg" alt="Kazhan" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
@@ -95,11 +81,8 @@ Your browser does not support the video tag.
 	Graduating May 2023. Looking for a fulltime Software Developer position.
       </p>
     </div>
-  </div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
-    <div class="profile-card_image">
+<!--<div class="col-lg-4 col-md-6 col-sm-12 mb-4"> -->
+    <div class="profile-card_image" style="display: block">
       <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow" style = "border-radius: 50%;">
     </div>
     <div class="profile-card_details">
@@ -113,5 +96,4 @@ Your browser does not support the video tag.
         Graduating July 2023. Looking for a fulltime software developer position.
       </p>
     </div>
-  </div>
 </div>
