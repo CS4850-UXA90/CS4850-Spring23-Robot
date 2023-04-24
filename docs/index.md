@@ -98,3 +98,23 @@ Your browser does not support the video tag.
       </p>
     </div>
 </div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
+    <div class="profile-card_image">
+      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow">
+    </div>
+    <div class="profile-card_details">
+      <h3 class="mb-0">
+        George Larumbe
+      </h3>
+      <p class="text-muted">
+        test
+      </p>
+      <p class="text-muted">
+        test
+      </p>
+    </div>
+  </div>
+</div>
