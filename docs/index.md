@@ -124,3 +124,28 @@ Your browser does not support the video tag.
     </div>
   </div>
 </div>
+
+<div class="profile-container">
+  <div class="profile">
+    <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent" class="mb-4 shadow">
+    <h3>Vince Giordano</h3>
+    <p>vkgiordano3@gmail.com</p>
+    <p>Graduating May 2023. Commissioning as an Officer in the United States Air Force.</p>
+  </div>
+  <div class="profile">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <h3>Profile 2</h3>
+    <p>Description 2</p>
+  </div>
+  <div class="profile">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <h3>Profile 3</h3>
+    <p>Description 3</p>
+  </div>
+  <div class="profile">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <h3>Profile 4</h3>
+    <p>Description 4</p>
+  </div>
+</div>
+
