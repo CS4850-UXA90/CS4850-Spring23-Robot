@@ -17,10 +17,10 @@ Movement:
 + Dance (work in progress)
 
 ### Vision
-*** Soon to be added ***
+Raspberry Pi camera module 3 outputs MJPEG stream that can be viewed from a browser and the VR headset. 
 
 ### Head Tracking
-*** Soon to be added ***
+The robot will mimic the head movements of the user when wearing the VR headset. Combined with the vision, this allows the user to see the robot's environment as if they were there.
 
 ### Hand Tracking
 *** Soon to be added ***
