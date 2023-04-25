@@ -4,6 +4,14 @@ title: Home
 nav_order: 1
 ---
 
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+	</head>
+</html>
+
+
+
 # Robot Control with Oculus VR
 {: .fs-9}
 This is the website for documentation and development of the Spring 2023 CS-4850 Senior Project group SP-1 for the UXA-90 robot with Oculus VR
