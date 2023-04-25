@@ -1,95 +1,81 @@
-.shadow{
-	box-shadow: 0 2px 20px rgba(0,0,0,0.1)!important;
+.shadow {
+	 box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1) !important;
 }
-
-.profile-card{
-	padding-bottom: 20px !important;
-	.profile-card_image{
-		img{
-			width:200px;
-			height:200px;
-			border-radius:100%;
-			object-fit: cover;
-			border:4px solid #fff;
-		}
+ .profile-card {
+	 padding-bottom: 20px !important;
+}
+ .profile-card .profile-card_image img {
+	 width: 200px;
+	 height: 200px;
+	 border-radius: 100%;
+	 object-fit: cover;
+	 border: 4px solid #fff;
+}
+ .profile-card .profile-card_social {
+	 position: absolute;
+	 left: 0;
+	 bottom: 0;
+	 width: 100%;
+}
+ .profile-card .profile-card_social img {
+	 width: 33px;
+	 margin: 5px 10px;
+}
+ .videoResponsive {
+	 padding-bottom: 56.25%;
+	 height: 0;
+	 position: relative;
+	 padding-top: 30px;
+	 overflow: hidden;
+}
+ .videoResponsive iframe, .videoResponsive object, .videoResponsive embed {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 width: 100%;
+	 height: 100%;
+}
+ video {
+	 width: 100%;
+	 min-width: 300px;
+}
+ @media print {
+	 nav, footer, .side-bar, .page-header {
+		 display: none;
 	}
-	.profile-card_social{
-		position: absolute;
-		left:0;
-		bottom: 0;
-		width:100%;
-		img{
-			width:33px;
-			margin:5px 10px;
-		}
+	 .main-content {
+		 max-width: auto;
+		 margin: 1em;
+	}
+	 body {
+		 font: 12pt Times New Roman;
+		 line-height: 1;
+	}
+	 @page {
+		 margin: 2cm;
 	}
 }
-
-.videoResponsive {
-	padding-bottom:56.25%;
-  height:0;
-  position:relative;
-	padding-top:30px;
-	overflow:hidden;
+ .profile-container {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
 }
-.videoResponsive iframe,
-.videoResponsive object,
-.videoResponsive embed {
-	position:absolute;
-	left:0;
-  top:0;
-	width:100%;
-	height:100%;
+ .profile {
+	 margin: 10px;
+	 text-align: center;
 }
-video {
-  width: 100%;
-  min-width: 300px;
+ .profile img {
+	 border-radius: 50%;
+	 width: 150px;
+	 height: 150px;
+	 object-fit: cover;
 }
-
-@media print {
-  nav,
-  footer,
-  .side-bar,
-  .page-header {
-    display: none;
-  }
-  .main-content {
-    max-width: auto;
-    margin: 1em;
-  }
-  body {
-    font: 12pt Times New Roman;
-    line-height: 1;
-  }
-  @page {
-    margin: 2cm;
-  }
+ .profile h3 {
+	 margin: 10px 0;
 }
-.profile-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-  
-.profile {
-	margin: 10px;
-	text-align: center;
-}
-  
-.profile img {
-	border-radius: 50%;
-	width: 150px;
-	height: 150px;
-	object-fit: cover;
-}
-  
-.profile h3 {
-	margin: 10px 0;
-}
-  
-.profile p {
-	font-size: 14px;
-	line-height: 1.4;
+ .profile p {
+	 font-size: 14px;
+	 line-height: 1.4;
 }
 
 
