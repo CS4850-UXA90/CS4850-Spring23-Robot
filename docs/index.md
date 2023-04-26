@@ -114,47 +114,4 @@ Your browser does not support the video tag.
   </div>
 </div>
 
-<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-  <div class="profile-card bg-white shadow mb-4 text-center rounded-lg p-4 position-relative h-100">
-    <div class="profile-card_image">
-      <img src="{{ site.baseurl }}/images/GeorgeHeadshot.jpg" alt="George" class="mb-4 shadow">
-    </div>
-    <div class="profile-card_details">
-      <h3 class="mb-0">
-        George Larumbe
-      </h3>
-      <p class="text-muted">
-        test
-      </p>
-      <p class="text-muted">
-        test
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="profile-container">
-  <div class="profile">
-    <img src="{{ site.baseurl }}/images/VinceHeadshot.jpg" alt="Vincent">
-    <h3>Vincent Giordano</h3>
-    <p>vkgiordano3@gmail.com</p>
-    <p>Graduating May 2023. Commissioning as an Officer in the United States Air Force.</p>
-  </div>
-  <div class="profile">
-    <img src="{{ site.baseurl }}/images/Ian.jpg" alt="Ian">
-    <h3>Ian Bryenton</h3>
-    <p>ianbryenton20561@gmail.com</p>
-    <p>Graduating May 2023. Looking for a fulltime postion in Software Development.</p>
-  </div>
-  <div class="profile">
-    <img src="https://via.placeholder.com/150" alt="Profile Picture">
-    <h3>Profile 3</h3>
-    <p>Description 3</p>
-  </div>
-  <div class="profile">
-    <img src="https://via.placeholder.com/150" alt="Profile Picture">
-    <h3>Profile 4</h3>
-    <p>Description 4</p>
-  </div>
-</div>
 
