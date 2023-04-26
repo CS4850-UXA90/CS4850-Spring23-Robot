@@ -41,7 +41,7 @@ sass:
 #remote_theme: just-the-docs
 theme: just-the-docs
 #theme: minima
-color_scheme: robots
+#color_scheme: robots
 
 callouts:
   warning:
