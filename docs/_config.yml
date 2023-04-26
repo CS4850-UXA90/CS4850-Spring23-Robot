@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cs4850-uxa90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cs4850-uxa90
+repository: cs4850-uxa90/CS4850-Spring23-Robot
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
@@ -54,9 +55,9 @@ callouts:
     color: yellow
 
 # Navigation
-nav:
-- name: "GitHub"
-  url: "https://github.com/CS4850-UXA90"
+#nav:
+#- name: "GitHub"
+#  url: "https://github.com/CS4850-UXA90"
   
 # Exclude from processing.
 # The following items will not be processed, by default.
