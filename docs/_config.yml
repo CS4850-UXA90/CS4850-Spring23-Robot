@@ -38,10 +38,10 @@ sass:
   style: :compressed
 
 # Build settings
-remote_theme: just-the-docs
-#theme: just-the-docs
+#remote_theme: just-the-docs
+theme: just-the-docs
 #theme: minima
-color_scheme: docs/robots
+color_scheme: robots
 
 callouts:
   warning:
