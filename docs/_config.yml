@@ -26,8 +26,11 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://cs4850-uxa90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cs4850-uxa90
 
-back_to_top: true
-back_to_top_text: "Back to top"
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+#back_to_top: true
+#back_to_top_text: "Back to top"
 
 # Build settings
 #remote_theme: just-the-docs
@@ -53,7 +56,7 @@ nav:
   
 # Sass
 sass:
-  sass_dir: CS4850-Spring23-Robot/docs/_sass
+  sass_dir: ./docs/_sass
   style: :compressed
 # Exclude from processing.
 # The following items will not be processed, by default.
