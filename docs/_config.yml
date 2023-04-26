@@ -51,7 +51,7 @@ nav:
   
 # Sass
 sass:
-  sass_dir: docs/_sass
+  sass_dir: CS4850-Spring23-Robot/docs/_sass
   style: :compressed
 # Exclude from processing.
 # The following items will not be processed, by default.
