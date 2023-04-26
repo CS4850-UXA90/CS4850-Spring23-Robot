@@ -31,12 +31,16 @@ aux_links:
 
 #back_to_top: true
 #back_to_top_text: "Back to top"
+# Sass
+sass:
+  sass_dir: ./docs/_sass
+  style: :compressed
 
 # Build settings
-#remote_theme: just-the-docs
-theme: just-the-docs
+remote_theme: just-the-docs
+#theme: just-the-docs
 #theme: minima
-color_scheme: robots
+color_scheme: docs/robots
 
 callouts:
   warning:
@@ -54,10 +58,6 @@ nav:
 - name: "GitHub"
   url: "https://github.com/CS4850-UXA90"
   
-# Sass
-sass:
-  sass_dir: ./docs/_sass
-  style: :compressed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
