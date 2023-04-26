@@ -31,7 +31,8 @@ back_to_top_text: "Back to top"
 
 # Build settings
 #remote_theme: just-the-docs
-theme: minima
+theme: just-the-docs
+#theme: minima
 color_scheme: robots
 
 callouts:
