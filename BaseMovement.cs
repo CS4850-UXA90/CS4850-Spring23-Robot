@@ -22,9 +22,8 @@ public class BaseMovement : MonoBehaviour
 
     private InputDevice rightController, leftController;
 
-    bool crouched = false;
-    int xAxis = 127;
-    int yAxis = 127;
+    // int xAxis = 127;
+    // int yAxis = 127;
 
     // Start is called before the first frame update
     async void Start()
@@ -88,55 +87,15 @@ public class BaseMovement : MonoBehaviour
             APICall(robot_motion + "turn_left");
         }
 
-        // Turn head right/left
-        else if (rightTrigger > 0.3)
-        {
-            if (xAxis < 210) { xAxis += 1; }
-            APICall(robot_head + $"23&position={xAxis}");
-        }
-        else if (leftTrigger > 0.3)
-        {
-            if (xAxis > 45) { xAxis -= 1; }
-            APICall(robot_head + $"23&position={xAxis}");
-        }
-
-        // Turn head up/down
-        else if (rightGrip > 0.3)
-        {
-            if (yAxis < 160) { yAxis += 1; }
-            APICall(robot_head + $"24&position={yAxis}");
-        }
-        else if (leftGrip > 0.3)
-        {
-            if (yAxis > 100) { yAxis -= 1; }
-            APICall(robot_head + $"24&position={yAxis}");
-        }
-
         /* 
-         * Crouch is inconsistent
-         * Needs work as it resets all motor values
-         * This includes the head and arm motors
-         * Need these motors to still be responsive as the user will need to crouch and pick stuff up
-         * 
-         * Motion commands reset all individual motor values
          * Have to use individual motor requests to move everything
          * Some movement commands are incorrect in terms of default values: left upper shoulder 80 default
          * 
          */
-         
+        
         else if (rightController.TryGetFeatureValue(CommonUsages.secondaryButton, out bool Bbutton) && Bbutton)
         {
-            // APICall(robot_motion + "")
-            if (!crouched) 
-            {
-                APICall(robot_motion + "sit_down");
-                crouched = true;
-            }
-            else 
-            { 
-                APICall(robot_motion + "reset");
-                crouched = false;
-            }
+            APICall(robot_motion + "sit_down");
         }
         
         // For fun :) ("dance_gangnamstyle")
@@ -144,8 +103,11 @@ public class BaseMovement : MonoBehaviour
         else if (leftController.TryGetFeatureValue(CommonUsages.secondaryButton, out bool Ybutton) && Ybutton)
         {
             APICall(robot_motion + "pc_control");
-            BodyTracking.motorIPNeck = BaseMovement.baseIP + "motor?id=23&position="; // Neck is for left/right
-            BodyTracking.motorIPHead = BaseMovement.baseIP + "motor?id=24&position="; // Head is for up/down
+            BodyTracking.motorIPNeck = baseIP + "motor?id=23&position="; // Neck is for left/right
+            BodyTracking.motorIPHead = baseIP + "motor?id=24&position="; // Head is for up/down
+            BodyTracking.move = !BodyTracking.move;
+
+            // BodyTracking.motorIPArms = baseIP + "motor?id="; // Motor IP for the arms
         }
 
         // Put the robot back into intial standing position then walking position (left then right joystick click)
